@@ -69,6 +69,10 @@
     }
 
     #completed {
+        text-decoration: line-through;
+    }
+
+    /* #completed {
         position: relative;
     }
 
@@ -81,7 +85,7 @@
         height: 1px;
         background: var(--warn);
         animation: strike 0.5s ease-out;
-    }
+    } */
 
     .todo-container {
         width: max-content;
